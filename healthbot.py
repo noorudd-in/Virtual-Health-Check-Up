@@ -8,6 +8,8 @@ import math
 import time
 
 def virtualcheckup():
+    put_html('<center><h2><br>Created by <a href="https://www.linkedin.com/in/nooruddin-shaikh/">Nooruddin Shaikh</a>'
+             '<br>Source code: <a href="https://github.com/noor12401/Virtual-Health-Check-Up">GitHub</a></h2></center>')
     put_text("Welcome to Virtual Medical Check-Up. \n"
              "This Virtual Check-Up will give result based on your choices and it doesn't guarantee the medical opinion. \n"
              "Kindly Note: This virtual health check-up is not for Athletes, Pregant Womens, Baby with less than 5 years and Old Person with more than 85 years. \n"
