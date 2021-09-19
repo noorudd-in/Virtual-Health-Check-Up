@@ -152,17 +152,17 @@ def virtualcheckup():
         points += 1
     else:
         points = points
-    q4 = radio("Do Smoke or Drink?", options=['Yes', 'No'])
+    q4 = radio("Do you Smoke or Drink?", options=['Yes', 'No'])
     if q4 == 'Yes':
         points += 1
     else:
         points = points
-    q5 = radio("Have you gone through major surgeries realted to hearth or brain?", options=['Yes', 'No'])
+    q5 = radio("Have you gone through major surgeries related to heart or brain?", options=['Yes', 'No'])
     if q5 == 'Yes':
         points += 1
     else:
         points = points
-    q6 = radio("You feel tired all the time?", options=['Yes', 'No'])
+    q6 = radio("Do you feel tired all the time?", options=['Yes', 'No'])
     if q6 == 'Yes':
         points += 1
     else:
