@@ -1,6 +1,9 @@
 # Virtual-Health-Check-Up
 Description: This projects aims to provide the basic details such as BMI, BMR, Diabetes Prediction, Average Protein and Fats Intake, Fitness Score using common details such as Body Temperature, Age, Height, Weight, etc. This project is for informational purpose and it doesn't gurantte the medical opinion. All the result shown is based on Proved Mathematics and Researched Medicals Statistics. All the formulas for calculating different scores is given below.
 
+# Project Demo
+Project is Live [See Demo](https://virtual-health-checkup.herokuapp.com/)
+
 ### Body Mass Index
 Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.
 BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass.
