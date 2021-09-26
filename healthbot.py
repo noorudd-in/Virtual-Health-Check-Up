@@ -279,15 +279,6 @@ def virtualcheckup():
         put_text(
             ">> You're already unfit and you need to start exercising from now! Living the same life will lead you very serious issues in the future and your life expectancy will be reduced too. You need to wake up and start to work-out from now!")
         
-        #Display User Information
-    b = info.user_agent.browser
-    os = info.user_agent.os
-    d = info.user_agent.device
-    lang = info.user_language
-    ip = info.user_ip
-    put_html('<body><center><h2>User Information</h2></center></body>')
-    put_text("Broswer: {} \nOperating System: {} \nVersion: {} \nIP Address: {} \nLanguage: {} \nDevice: {}"
-             "\nModel: {} ".format(b.family, os.family, os.version, ip, lang, d.brand, d.model))
 
 #Calling the above function as main function
 def main():
